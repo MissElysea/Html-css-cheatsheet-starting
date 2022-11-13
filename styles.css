@@ -1,0 +1,57 @@
+/* typography */
+
+h1 {
+    text-align: center;
+    color: white;
+}
+html {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+  }
+  
+  thead th {
+    font-family: "Quicksand";
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+
+  body {
+    background-color: black;
+  }
+
+
+  /* graphics and colors */
+
+thead {
+  background: url(https://wallpaperaccess.com/full/679275.jpg);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+thead th {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)
+  );
+  border: 3px solid purple;
+}
+  
+  table {
+    background-color: #ff33cc;
+    width: 100%;
+    max-width: 600px;
+    height: 240px;
+    margin: 0 auto;
+    display: block;
+    border-spacing: 0;
+  }
